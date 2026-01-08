@@ -1,2 +1,2 @@
-import { heroui } from "@heroui/theme";
+import { heroui } from '@heroui/theme';
 export default heroui();

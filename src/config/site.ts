@@ -1,53 +1,53 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Vite App",
-  description: "Simple Vite Aplication Template",
+  name: 'Vite App',
+  description: 'Simple Vite Aplication Template',
   navItems: [
     {
-      label: "Home",
-      href: "/",
+      label: 'Home',
+      href: '/',
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: 'Docs',
+      href: '/docs',
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: 'Profile',
+      href: '/profile',
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: 'Dashboard',
+      href: '/dashboard',
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: 'Projects',
+      href: '/projects',
     },
     {
-      label: "Team",
-      href: "/team",
+      label: 'Team',
+      href: '/team',
     },
     {
-      label: "Calendar",
-      href: "/calendar",
+      label: 'Calendar',
+      href: '/calendar',
     },
     {
-      label: "Settings",
-      href: "/settings",
+      label: 'Settings',
+      href: '/settings',
     },
     {
-      label: "Help & Feedback",
-      href: "/help-feedback",
+      label: 'Help & Feedback',
+      href: '/help-feedback',
     },
     {
-      label: "Logout",
-      href: "/logout",
+      label: 'Logout',
+      href: '/logout',
     },
   ],
   links: {
-    github: "https://github.com/jcamiloveru",
+    github: 'https://github.com/jcamiloveru',
   },
 };

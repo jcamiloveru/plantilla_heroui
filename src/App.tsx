@@ -1,7 +1,7 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 
-import IndexPage from "@/pages/index";
-import DocsPage from "@/pages/docs";
+import IndexPage from '@/pages/index';
+import DocsPage from '@/pages/docs';
 
 function App() {
   return (
