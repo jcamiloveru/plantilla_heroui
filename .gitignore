@@ -11,10 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-pnpm-lock.yaml
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -23,3 +21,9 @@ pnpm-lock.yaml
 *.njsproj
 *.sln
 *.sw?
+
+
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+bun.lockb
