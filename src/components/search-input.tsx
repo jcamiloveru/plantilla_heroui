@@ -1,7 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Input } from '@heroui/input';
-import { Kbd } from '@heroui/kbd';
-
+import { Kbd, Input } from '@heroui/react';
 import { SearchIcon } from '@/components/icons';
 
 export const SearchInput = () => {

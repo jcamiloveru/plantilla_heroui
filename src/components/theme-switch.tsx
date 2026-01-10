@@ -1,8 +1,8 @@
 import { FC, useState, useEffect } from 'react';
 import { VisuallyHidden } from '@react-aria/visually-hidden';
 import { SwitchProps, useSwitch } from '@heroui/switch';
-import clsx from 'clsx';
 import { useTheme } from '@heroui/use-theme';
+import clsx from 'clsx';
 
 import { SunFilledIcon, MoonFilledIcon } from '@/components/icons';
 
@@ -48,7 +48,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({ className, classNames }) => 
               'rounded-lg',
               'flex items-center justify-center',
               'group-data-[selected=true]:bg-transparent',
-              '!text-default-500',
+              'text-default-500!',
               'pt-px',
               'px-0',
               'mx-0',

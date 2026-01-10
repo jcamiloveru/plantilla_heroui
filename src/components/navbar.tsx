@@ -6,11 +6,10 @@ import {
   NavbarBrand,
   NavbarItem,
   NavbarMenuItem,
-} from '@heroui/navbar';
-import { Link } from '@heroui/link';
+  Link,
+} from '@heroui/react';
 import { link as linkStyles } from '@heroui/theme';
 import clsx from 'clsx';
-
 import { siteConfig } from '@/config/site';
 import { ThemeSwitch } from '@/components/theme-switch';
 import { SearchInput } from '@/components/search-input';
